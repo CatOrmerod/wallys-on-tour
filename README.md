@@ -2,7 +2,7 @@
 
 Family travel guide app for Vietnam, Singapore & Malaysia — June/July.
 
-**Live site:** https://YOUR-USERNAME.github.io/wallys-on-tour/
+**Live site:** https://catormerod.github.io/wallys-on-tour/
 
 ---
 
