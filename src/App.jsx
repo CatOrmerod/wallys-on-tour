@@ -9,6 +9,7 @@ import GuidePage from './components/GuidePage.jsx'
 // ─────────────────────────────────────────────
 export const GUIDES = [
   { id: 'pretravel',  emoji: '🌏', title: 'Pre-Travel',       subtitle: 'Night before departure',     color: '#1a1a2e' },
+  { id: 'food',       emoji: '🍜', title: 'Food Guide',        subtitle: 'What to eat & drink',         color: '#1a1208' },
   { id: 'hcmc',       emoji: '🏙',  title: 'Ho Chi Minh City', subtitle: 'Days 1–6 · 20–25 June',      color: '#1a3040' },
   { id: 'cantho',     emoji: '🚤', title: 'Can Tho',           subtitle: 'Days 6–8 · 25–27 June',      color: '#1a3a4a' },
   { id: 'hoian',      emoji: '🏮', title: 'Hội An',            subtitle: 'Days 8–12 · 27 Jun–1 Jul',   color: '#5a3016' },
@@ -16,7 +17,6 @@ export const GUIDES = [
   { id: 'danang',     emoji: '🌊', title: 'Da Nang',           subtitle: 'Days 15–17 · 4–6 July',      color: '#1a3a4a' },
   { id: 'singapore',  emoji: '🦁', title: 'Singapore',         subtitle: 'Days 17–21 · 6–10 July',     color: '#1a2d3d' },
   { id: 'kl',         emoji: '🏙',  title: 'Kuala Lumpur',      subtitle: 'Days 22–23 · 11–12 July',    color: '#8b1a1a' },
-  { id: 'food',       emoji: '🍜', title: 'Food Guide',        subtitle: 'What to eat & drink',         color: '#1a1208' },
 ]
 
 export default function App() {
