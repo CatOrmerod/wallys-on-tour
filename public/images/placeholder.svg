@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="220" viewBox="0 0 800 220">
+  <rect width="800" height="220" fill="#ede3cc"/>
+  <text x="400" y="105" font-family="Georgia" font-size="16" fill="#b8860b" text-anchor="middle">📷 Photo coming soon</text>
+  <text x="400" y="130" font-family="Georgia" font-size="12" fill="#8b4513" text-anchor="middle">Drop image into public/images/ with matching filename</text>
+</svg>

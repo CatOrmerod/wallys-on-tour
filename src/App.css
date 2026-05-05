@@ -1,0 +1,299 @@
+/* ── RESET ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+  background: #0e0c09;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── HOME SCREEN ── */
+.home-screen {
+  height: 100vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  background: #0e0c09;
+  flex-direction: column;
+}
+
+.home-hero {
+  background: #0e0c09;
+  padding: 52px 24px 24px;
+  text-align: center;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.home-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    45deg, transparent, transparent 40px,
+    rgba(184,134,11,0.04) 40px, rgba(184,134,11,0.04) 41px
+  );
+  pointer-events: none;
+}
+
+.hero-eyebrow {
+  font-family: 'EB Garamond', serif;
+  font-size: 11px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #d4a843;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 56px;
+  font-weight: 900;
+  font-style: italic;
+  color: #f5efe0;
+  line-height: 0.92;
+  position: relative;
+  display: block;
+}
+
+.hero-title span {
+  color: #d4a843;
+  display: block;
+}
+
+.hero-sub {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  font-style: italic;
+  color: rgba(245,239,224,0.6);
+  margin-top: 12px;
+  position: relative;
+}
+
+.hero-rule {
+  width: 60px;
+  height: 2px;
+  background: #b8860b;
+  margin: 18px auto;
+  position: relative;
+}
+
+.hero-family {
+  font-family: 'EB Garamond', serif;
+  font-size: 12px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: rgba(184,134,11,0.55);
+  position: relative;
+}
+
+.guide-list {
+  padding: 16px 16px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.guide-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--card-color);
+  border-radius: 12px;
+  padding: 16px 18px;
+  cursor: pointer;
+  border: 1px solid rgba(255,255,255,0.08);
+  width: 100%;
+  text-align: left;
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+.guide-card:active {
+  opacity: 0.7;
+  transform: scale(0.98);
+}
+
+.card-emoji {
+  font-size: 28px;
+  flex-shrink: 0;
+  width: 40px;
+  text-align: center;
+}
+
+.card-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #f5efe0;
+  line-height: 1.2;
+}
+
+.card-sub {
+  font-family: 'EB Garamond', serif;
+  font-size: 13px;
+  color: rgba(245,239,224,0.55);
+  margin-top: 2px;
+}
+
+.card-arrow {
+  font-size: 22px;
+  color: rgba(245,239,224,0.35);
+  font-family: sans-serif;
+  flex-shrink: 0;
+}
+
+/* ── GUIDE PAGES ── */
+.guide-page {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  display: flex;
+  flex-direction: column;
+  background: #faf6ee;
+  z-index: 100;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+
+.guide-page.active {
+  transform: translateX(0);
+}
+
+.guide-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  padding-top: max(14px, env(safe-area-inset-top));
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  position: relative;
+  z-index: 110;
+}
+
+.back-btn {
+  background: rgba(255,255,255,0.18);
+  border: none;
+  color: #f5efe0;
+  font-family: 'EB Garamond', serif;
+  font-size: 17px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.back-btn:active {
+  background: rgba(255,255,255,0.3);
+}
+
+.topbar-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #f5efe0;
+  text-align: center;
+  flex: 1;
+  padding: 0 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.guide-content {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ── MOBILE OVERRIDES FOR GUIDE CONTENT ── */
+.guide-content .content { padding: 0 16px 48px !important; max-width: 100% !important; }
+.guide-content .cover { padding: 36px 20px 32px !important; }
+.guide-content .practical-bar { padding: 12px 16px !important; }
+.guide-content .restaurant-cards,
+.guide-content .dining-cards { padding: 8px 16px !important; }
+.guide-content .chapter { padding: 24px 16px 0 !important; }
+.guide-content .coffee-section { padding: 28px 16px !important; }
+.guide-content .phrases { padding: 24px 16px !important; }
+.guide-content .must-sees { grid-template-columns: 1fr !important; }
+.guide-content .food-grid { grid-template-columns: 1fr !important; }
+.guide-content .coffee-grid { grid-template-columns: 1fr !important; }
+.guide-content .practical-grid { grid-template-columns: 1fr !important; }
+.guide-content .checklist-grid { grid-template-columns: 1fr !important; }
+.guide-content .doc-grid { grid-template-columns: 1fr 1fr !important; }
+.guide-content .phrase-grid { grid-template-columns: 1fr !important; }
+.guide-content .cover-meta { gap: 14px !important; }
+.guide-content .trip-table { font-size: 12px !important; }
+.guide-content .trip-table td,
+.guide-content .trip-table th { padding: 5px 7px !important; }
+.guide-content .farewell { padding: 32px 16px !important; }
+.guide-content .restaurant-header,
+.guide-content .dining-header { padding: 20px 16px !important; }
+.guide-content .day-header { padding: 20px 16px !important; margin: 24px 0 0 !important; }
+.guide-content .food-card-img { height: 180px !important; }
+.guide-content .coffee-card-img { height: 140px !important; }
+.guide-content .stop { padding: 20px 0 !important; }
+.guide-content .stop-name { font-size: 18px !important; }
+.guide-content .day-title { font-size: 22px !important; }
+.guide-content .chapter-title { font-size: 26px !important; }
+.guide-content .itinerary-row { flex-direction: column; gap: 2px !important; padding: 8px 0 !important; }
+.guide-content .itinerary-time { min-width: unset !important; font-size: 11px !important; color: #b8860b; }
+
+/* suppress print page-break rules on screen */
+@media screen {
+  .guide-content .cover,
+  .guide-content .practical-bar,
+  .guide-content .day-header,
+  .guide-content .restaurant-section,
+  .guide-content .dining-section {
+    page-break-before: unset !important;
+    break-before: unset !important;
+    page-break-after: unset !important;
+    break-after: unset !important;
+  }
+}
+
+/* ── GITHUB ACTIONS DEPLOY NOTE ─────────────────
+   See .github/workflows/deploy.yml for auto-deploy
+   Push to main → builds → deploys to GitHub Pages
+────────────────────────────────────────────────── */
+
+/* ── GUIDE IMAGE SLOTS ── */
+.guide-img-wrap {
+  width: 100%;
+  margin: 16px 0;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.guide-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  border-radius: 4px;
+}
+
+/* Wider images for landscape shots */
+.guide-img-wrap.landscape .guide-img {
+  height: 180px;
+}
+
+/* Within food grid cards - already has styling */
+.food-card .guide-img {
+  height: 200px;
+  border-radius: 0;
+  margin: 0;
+}
