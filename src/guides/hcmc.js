@@ -7,6 +7,7 @@ const content = `
     <div class="cover-rule"></div>
     <div class="cover-meta">
       <div class="cover-meta-item"><span class="cover-meta-label">Hotel</span><span class="cover-meta-value">Hôtel des Arts Saigon
+<div class="guide-img-wrap"><img src="/images/hcmc-saigon-skyline.png" alt="Saigon skyline at dusk" class="guide-img" onerror="this.style.display='none'"></div>
 <div class="guide-img-wrap"><img src="/images/hcmc-hotel-des-arts.jpg" alt="Hotel des Arts Saigon" class="guide-img" onerror="this.style.display='none'"></div>, District 3</span></div>
       <div class="cover-meta-item"><span class="cover-meta-label">Days</span><span class="cover-meta-value">5 nights, 4 full days</span></div>
       <div class="cover-meta-item"><span class="cover-meta-label">The Family</span><span class="cover-meta-value">Cat, Ian, Piper, Gigi &amp; Grads</span></div>
@@ -21,10 +22,10 @@ const content = `
     <div class="practical-item"><strong>Weather in June</strong>Hot and humid — 30–35°C daily. Brief afternoon rain showers are common but pass quickly. Start mornings early to beat the heat. Carry a small umbrella or light rain jacket.</div>
     <div class="practical-item"><strong>What to Wear</strong>Light, breathable fabrics every day. Comfortable walking shoes essential. Carry a scarf for temples and museums. Dress modestly at religious sites (shoulders and knees covered).</div>
     <div class="practical-item"><strong>Currency &amp; Markets</strong>Vietnamese Dong (VND). Withdraw cash before visiting markets — most stalls are cash only. Haggling is expected; open at 40–50% of the asking price and work up from there.</div>
-    <div class="practical-item"><strong>Booked Tours</strong>22 June: Jason SSS Tours, 7:00 AM pickup — Cu Chi Tunnels + rifle range
-<div class="guide-img-wrap"><img src="/images/hcmc-cu-chi-tunnels.jpg" alt="Cu Chi Tunnels" class="guide-img" onerror="this.style.display='none'"></div>, back by 1pm. 23 June: Hanoi Backstreet Tours Jeep Food Tour
-<div class="guide-img-wrap"><img src="/images/hcmc-jeep-tour.jpg" alt="Backstreet Jeep Food Tour Saigon" class="guide-img" onerror="this.style.display='none'"></div>, 3:00 PM (~9:30 PM finish). 25 June: Jason SSS Tours, 7:30 AM — Mekong Delta, 2 days.</div>
-    <div class="practical-item"><strong>Your Hotel</strong>76–78 Nguyen Thi Minh Khai, District 3. Rooftop infinity pool (guests only — claim daybeds early). Social Club Rooftop Bar open to public evenings. Café des Beaux-Arts for afternoon tea. Saigon Kitchen for all-day dining.</div>
+    <div class="practical-item"><strong>Booked Tours</strong>22 June: War Remnants Museum + Book Street + Jeep Food Tour from 3pm
+<div class="guide-img-wrap"><img src="/images/hcmc-cu-chi-tunnels.webp" alt="Cu Chi Tunnels" class="guide-img" onerror="this.style.display='none'"></div>, back by 1pm. 23 June: Jason SSS Tours 7:00 AM — Ben Du&ocirc;c Cu Chi Tunnels + rifle range, back by 1pm
+<div class="guide-img-wrap"><img src="/images/hcmc-jeep-tour.webp" alt="Backstreet Jeep Food Tour Saigon" class="guide-img" onerror="this.style.display='none'"></div>, 3:00 PM (~9:30 PM finish). 25 June: Jason SSS Tours, 7:30 AM — Mekong Delta, 2 days.</div>
+    <div class="practical-item"><strong>Your Hotel</strong>H&ocirc;tel des Arts Saigon, 76&ndash;78 Nguy&#x1EC5;n Th&#x1ECB; Minh Khai, District 3. <strong>2 &times; Deluxe King Room</strong> + rollaway for Piper. <strong>Buffet breakfast included</strong> at <strong>Saigon Kitchen Restaurant, 6:00&ndash;10:30 AM daily</strong>.</div>
   </div>
 </div>
 
@@ -136,57 +137,8 @@ const content = `
 <!-- ═══════════ DAY 3 ═══════════ -->
 <div class="day-header day3">
   <div class="day-number">Day 3 — Sunday 22 June</div>
-  <div class="day-title">Into the Tunnels, then Rest</div>
-  <div class="day-desc">An early and intense morning underground — well earned by an afternoon doing absolutely nothing by the pool.</div>
-</div>
-
-<div class="stop">
-  <div class="stop-header">
-    <span class="stop-time">7:00 AM Pickup</span>
-    <div><div class="stop-name">Cu Chi Tunnels — Ben Duoc</div><span class="stop-name-sub">Jason SSS Tours — 16-seater van + rifle range — back by 1pm</span></div>
-  </div>
-  <div class="stop-badges">
-    <span class="badge badge-tour">Pre-booked — Jason SSS Tours</span>
-    <span class="badge badge-duration">7:00 AM – 1:00 PM</span>
-  </div>
-
-  <div class="section-label">The History</div>
-  <p>The Cu Chi tunnel network is one of the most remarkable feats of wartime engineering in history. Stretching over 250 kilometres beneath the jungle northwest of Saigon, the system was built by the Viet Cong over several decades — first as hiding places during the French colonial war, then expanded massively during the American war into a fully functioning underground city. At its peak, the Cu Chi tunnels contained hospitals, kitchens, weapons factories, command centres, and sleeping quarters. Thousands of fighters lived below ground for months at a time, emerging only at night to engage South Vietnamese and American forces before disappearing back underground before dawn.</p>
-  <p>The tunnels were dug entirely by hand, often just wide and tall enough for a small adult to crawl through. They were deliberately built to Vietnamese body proportions — anyone larger found them impassable, a tactical advantage against American soldiers. Booby traps, hidden entrances disguised as termite mounds, and ventilation shafts camouflaged as anthills completed a system so effective that the Cu Chi district was one of the most bombed, gassed, and defoliated areas in the entire war — and still the tunnels persisted.</p>
-  <p>Ben Duoc is the more authentic and less visited of the two Cu Chi sites (the other being Ben Dinh), and gives the most honest sense of what the tunnels actually looked like and how they were used.</p>
-
-  <div class="section-label">What to Expect</div>
-  <ul class="must-sees">
-    <li>Short documentary film on arrival — essential context</li>
-    <li>Guided jungle walk — trap pits, camouflaged entrances</li>
-    <li>Tunnel crawl — widened for tourists but still tight and hot</li>
-    <li>Rifle range — AK47, M16, M60 (extra cost per bullet)</li>
-    <li>War-era equipment — tanks, bomb craters, aircraft wreckage</li>
-    <li>Traditional Cu Chi snacks at the end — tapioca with groundnut sauce</li>
-  </ul>
-  <div class="tip-box"><strong>What to Wear &amp; Bring</strong>Wear old, dark-coloured clothing you don't mind getting dirty. Closed-toe shoes essential — no sandals. Long sleeves recommended for mosquitoes and rough tunnel walls. Bring insect repellent, water, and a small torch if you have one. Leave valuables at the hotel.</div>
-  <div class="tip-box"><strong>The Rifle Range</strong>Very loud — ask the guide for ear protection before picking up a weapon. Each bullet paid for separately (~50,000–60,000 VND per round). Check with the guide on minimum age before Piper gets excited.</div>
-  <div class="warning-box"><strong>⚠️ Tunnel Crawl — Know Before You Go</strong>The tunnels are genuinely tight, very hot, and completely dark in sections. Anyone who is claustrophobic should skip the crawl — the guides accommodate this without any fuss, and the rest of the experience is fully worthwhile without it.</div>
-</div>
-
-<div class="stop">
-  <div class="stop-header">
-    <span class="stop-time">1:00 PM onwards</span>
-    <div><div class="stop-name">Pool, Rest &amp; Recovery</div><span class="stop-name-sub">Hôtel des Arts Saigon — Rooftop, Level 24</span></div>
-  </div>
-  <div class="stop-badges">
-    <span class="badge badge-family">Hotel guests only</span>
-    <span class="badge badge-duration">Afternoon at leisure</span>
-  </div>
-  <p>After a hot, physical morning underground, the afternoon is entirely the family's. Pool, cold drinks, no plans. Everyone has earned it. The Social Club Bar is on the same level for poolside drinks throughout the afternoon.</p>
-</div>
-
-
-<!-- ═══════════ DAY 4 ═══════════ -->
-<div class="day-header day4">
-  <div class="day-number">Day 4 — Monday 23 June</div>
   <div class="day-title">History, Books &amp; Army Jeeps</div>
-  <div class="day-desc">A rich morning taking in two very different sides of the same history, then handed over to the jeeps for an evening of Saigon food.</div>
+  <div class="day-desc">An early and intense morning underground — well earned by an afternoon doing absolutely nothing by the pool.</div>
 </div>
 
 <div class="stop">
@@ -234,7 +186,7 @@ const content = `
 <div class="stop">
   <div class="stop-header">
     <span class="stop-time">3:00 PM Pickup</span>
-    <div><div class="stop-name">Saigon Food Culture — Army Jeep Tour</div><span class="stop-name-sub">Hanoi Backstreet Tours — hotel pickup, runs until ~9:30 PM</span></div>
+    <div><div class="stop-name">Saigon Food Culture — Army Jeep Tour</div><span class="stop-name-sub">Hanoi Backstreet Tours &mdash; hotel pickup 3:00 PM, runs until ~9:30 PM</span></div>
   </div>
   <div class="stop-badges">
     <span class="badge badge-tour">Pre-booked — Hanoi Backstreet Tours</span>
@@ -242,6 +194,55 @@ const content = `
   </div>
   <p>Collected from the hotel in vintage US Army jeeps — open-sided, atmospheric, and the perfect way to navigate Saigon's streets. The jeeps themselves are a living piece of history: American military vehicles left behind after 1975, repurposed and now carrying tourists through the same city they once patrolled. The tour covers several districts, stopping at curated restaurants and food stalls for multiple courses across the evening. This covers your dinner tonight. Let your guide know upfront about any dietary requirements and mention a preference for sit-down restaurants over street stalls — guides can usually adjust.</p>
   <div class="tip-box"><strong>Tips for the Jeep Tour</strong>The jeeps are open-sided — bring a light jacket for the evening air. Streets can be bumpy, so hold on. Wear comfortable clothes and bring a small bag. Mention Cat and Ian's preference for sit-down spots when the guide calls to confirm the booking.</div>
+</div>
+
+
+<!-- ═══════════ DAY 4 ═══════════ -->
+<div class="day-header day4">
+  <div class="day-number">Day 4 — Monday 23 June</div>
+  <div class="day-title">Into the Tunnels</div>
+  <div class="day-desc">An early and intense morning underground at Ben Du&ocirc;c with Jason SSS Tours &mdash; well earned by an afternoon doing absolutely nothing by the pool.</div>
+</div>
+
+<div class="stop">
+  <div class="stop-header">
+    <span class="stop-time">7:00 AM Pickup</span>
+    <div><div class="stop-name">Cu Chi Tunnels — Ben Duoc</div><span class="stop-name-sub">Jason SSS Tours — 16-seater van + rifle range — back by 1pm</span></div>
+  </div>
+  <div class="stop-badges">
+    <span class="badge badge-tour">Pre-booked — Jason SSS Tours</span>
+    <span class="badge badge-duration">7:00 AM – 1:00 PM</span>
+  </div>
+
+  <div class="section-label">The History</div>
+  <p>The Cu Chi tunnel network is one of the most remarkable feats of wartime engineering in history. Stretching over 250 kilometres beneath the jungle northwest of Saigon, the system was built by the Viet Cong over several decades — first as hiding places during the French colonial war, then expanded massively during the American war into a fully functioning underground city. At its peak, the Cu Chi tunnels contained hospitals, kitchens, weapons factories, command centres, and sleeping quarters. Thousands of fighters lived below ground for months at a time, emerging only at night to engage South Vietnamese and American forces before disappearing back underground before dawn.</p>
+  <p>The tunnels were dug entirely by hand, often just wide and tall enough for a small adult to crawl through. They were deliberately built to Vietnamese body proportions — anyone larger found them impassable, a tactical advantage against American soldiers. Booby traps, hidden entrances disguised as termite mounds, and ventilation shafts camouflaged as anthills completed a system so effective that the Cu Chi district was one of the most bombed, gassed, and defoliated areas in the entire war — and still the tunnels persisted.</p>
+  <p>Ben Duoc is the more authentic and less visited of the two Cu Chi sites (the other being Ben Dinh), and gives the most honest sense of what the tunnels actually looked like and how they were used.</p>
+
+  <div class="section-label">What to Expect</div>
+  <ul class="must-sees">
+    <li>Short documentary film on arrival — essential context</li>
+    <li>Guided jungle walk — trap pits, camouflaged entrances</li>
+    <li>Tunnel crawl — widened for tourists but still tight and hot</li>
+    <li>Rifle range — AK47, M16, M60 (extra cost per bullet)</li>
+    <li>War-era equipment — tanks, bomb craters, aircraft wreckage</li>
+    <li>Traditional Cu Chi snacks at the end — tapioca with groundnut sauce</li>
+  </ul>
+  <div class="tip-box"><strong>What to Wear &amp; Bring</strong>Wear old, dark-coloured clothing you don't mind getting dirty. Closed-toe shoes essential — no sandals. Long sleeves recommended for mosquitoes and rough tunnel walls. Bring insect repellent, water, and a small torch if you have one. Leave valuables at the hotel.</div>
+  <div class="tip-box"><strong>The Rifle Range</strong>Ian, Gigi, and Grads all have gun licences and will definitely be doing this. Very loud &mdash; ask the guide for ear protection before picking up a weapon. Available weapons typically include AK47, M16, and M60. Each bullet paid for separately (~50,000&ndash;60,000 VND per round, minimum 10 rounds per weapon). Cat and Piper are welcome to watch from the viewing area. Check with the guide on minimum age for Piper.</div>
+  <div class="warning-box"><strong>⚠️ Tunnel Crawl — Know Before You Go</strong>The tunnels are genuinely tight, very hot, and completely dark in sections. Anyone who is claustrophobic should skip the crawl — the guides accommodate this without any fuss, and the rest of the experience is fully worthwhile without it.</div>
+</div>
+
+<div class="stop">
+  <div class="stop-header">
+    <span class="stop-time">1:00 PM onwards</span>
+    <div><div class="stop-name">Pool, Rest &amp; Recovery</div><span class="stop-name-sub">Hôtel des Arts Saigon — Rooftop, Level 24</span></div>
+  </div>
+  <div class="stop-badges">
+    <span class="badge badge-family">Hotel guests only</span>
+    <span class="badge badge-duration">Afternoon at leisure</span>
+  </div>
+  <p>After a hot, physical morning underground, the afternoon is entirely the family's. Pool, cold drinks, no plans. Everyone has earned it. The Social Club Bar is on the same level for poolside drinks throughout the afternoon.</p>
 </div>
 
 
@@ -255,7 +256,7 @@ const content = `
 <div class="stop">
   <div class="stop-header">
     <span class="stop-time">8:30 AM</span>
-    <div><div class="stop-name">Reunification Palace</div>\n<div class="guide-img-wrap"><img src="/images/hcmc-reunification-palace.jpg" alt="Reunification Palace" class="guide-img" onerror="this.style.display='none'"></div><span class="stop-name-sub">Dinh Thống Nhất — 135 Nam Kỳ Khởi Nghĩa, District 1</span></div>
+    <div><div class="stop-name">Reunification Palace</div>\n<div class="guide-img-wrap"><img src="/images/hcmc-reunification-palace.webp" alt="Reunification Palace" class="guide-img" onerror="this.style.display='none'"></div><span class="stop-name-sub">Dinh Thống Nhất — 135 Nam Kỳ Khởi Nghĩa, District 1</span></div>
   </div>
   <div class="stop-badges">
     <span class="badge badge-ticket">Paid Entry — ~40,000 VND per adult</span>

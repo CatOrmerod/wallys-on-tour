@@ -19,7 +19,7 @@ const content = `
 <div class="practical-bar">
   <h3>Essential Practical Info</h3>
   <div class="practical-grid">
-    <div class="practical-item"><strong>Your Hotel</strong>Moire Hoi An. Hotel car meets you at Da Nang Airport on arrival (flight VJ702, ~12:40 PM). Drive to Hoi An is approximately 35–40 minutes.</div>
+    <div class="practical-item"><strong>Your Hotel</strong>Moire Hoi An &mdash; <strong>2 &times; Deluxe King Room</strong> + rollaway for Piper. <strong>Buffet breakfast included</strong> at <strong>Bistro Julienne, 6:30&ndash;10:30 AM daily</strong>.</div>
     <div class="practical-item"><strong>Old Town Entry Ticket</strong>120,000 VND per adult to enter Hoi An Ancient Town, covers 5 site admissions. Buy at booths near the Old Town entrances. Keep your ticket — you'll use it across the stay. Children under 15 are free.</div>
     <div class="practical-item"><strong>Getting Around</strong>The Old Town is entirely walkable. Use Grab for anything further (beach, Cam Thanh, An Bang). The Old Town is closed to vehicles from around 8:00 AM, so drop-off/pick-up points are on the perimeter roads.</div>
     <div class="practical-item"><strong>Weather in Late June</strong>Hot and humid — 30–34°C. Late June is at the tail end of the dry season; occasional brief showers are possible. Start mornings early. Carry a small umbrella and sun hat every day.</div>

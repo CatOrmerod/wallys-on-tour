@@ -6,9 +6,9 @@ const content = `
     <div class="cover-sub">Everything you need for the night before departure &mdash; and the three weeks that follow.</div>
     <div class="cover-rule"></div>
     <div class="cover-meta">
-      <div><span class="cover-meta-label">Tonight</span><span class="cover-meta-value">Moxy Sydney Airport\n<div class="guide-img-wrap"><img src="/images/sydney-moxy-hotel.jpg" alt="Moxy Sydney Airport hotel" class="guide-img" onerror="this.style.display='none'"></div> &mdash; 19 June</span></div>
-      <div><span class="cover-meta-label">Dinner</span><span class="cover-meta-value">La Boca\n<div class="guide-img-wrap"><img src="/images/sydney-la-boca.jpg" alt="La Boca Bar and Grill Sydney Airport" class="guide-img" onerror="this.style.display='none'"></div> Bar &amp; Grill, 7:00pm</span></div>
-      <div><span class="cover-meta-label">First Stop</span><span class="cover-meta-value">Ho Chi Minh City\n<div class="guide-img-wrap"><img src="/images/hcmc-saigon-skyline.jpg" alt="Saigon skyline" class="guide-img" onerror="this.style.display='none'"></div> &mdash; 20 June</span></div>
+      <div><span class="cover-meta-label">Tonight</span><span class="cover-meta-value">Moxy Sydney Airport &mdash; 19 June</span></div>
+      <div><span class="cover-meta-label">Dinner</span><span class="cover-meta-value">La Boca Bar &amp; Grill, 7:00pm</span></div>
+      <div><span class="cover-meta-label">First Stop</span><span class="cover-meta-value">Ho Chi Minh City &mdash; 20 June</span></div>
     </div>
   </div>
 </div>
@@ -18,7 +18,7 @@ const content = `
   <div class="practical-grid">
     <div class="practical-item"><strong>Duration</strong>25 nights away from Sydney &mdash; 19 June to 13 July. Three countries: Vietnam, Singapore, Malaysia. Seven destinations: Ho Chi Minh City, Can Tho, Hội An, Huế, Da Nang, Singapore, Kuala Lumpur.</div>
     <div class="practical-item"><strong>The Family</strong>Cat, Ian, Piper, Gigi &amp; Grads. Five people with seven destination guides in this set, one for every stop.</div>
-    <div class="practical-item"><strong>Tonight</strong>Moxy Sydney Airport, 56 Baxter Road, Mascot. Dinner at La Boca at 7pm. Parking at P7 from 5pm. Early night &mdash; domestic departure at 8:15am tomorrow.</div>
+    <div class="practical-item"><strong>Tonight</strong>Moxy Sydney Airport, 56 Baxter Road, Mascot. <strong>Family Connecting Suite</strong> &mdash; 2 queen beds + 1 single bunk, connecting rooms. No breakfast included. Dinner at La Boca at 7pm. Parking at P7 from 5pm.</div>
     <div class="practical-item"><strong>Tomorrow&rsquo;s Flights</strong>SYD&rarr;MEL 8:15am (domestic T2/T3), then MEL&rarr;SGN 3:35pm (international). Arriving Ho Chi Minh City in the evening with Johnny Visa fast track waiting at the gate.</div>
     <div class="practical-item"><strong>First Night</strong>Hotel Des Arts Saigon, District 3, Ho Chi Minh City. Private car transfer pre-booked from the airport &mdash; confirm reference in your booking documents. Drive is 30&ndash;45 minutes.</div>
     <div class="practical-item"><strong>Time Zones</strong>Vietnam is UTC+7 (3 hours behind Sydney in winter, 4 in summer). Singapore and Malaysia are UTC+8. You gain time flying to Asia; you lose it coming home.</div>
@@ -112,9 +112,39 @@ const content = `
   <p>Cloud 9, the Moxy&rsquo;s rooftop cocktail bar, is available for a nightcap if anyone has the energy &mdash; it has runway views and a good cocktail list. Otherwise: bed. The 6am alarm is real, and Day One in Ho Chi Minh City will be long and exciting. A well-rested family arrives better than a tired one.</p>
   <div class="tip-box">
     <strong>Tonight&rsquo;s Final Checklist</strong>
-    Set two alarms. Lay passports, e-visa printouts, booking confirmations, and boarding passes together in one accessible place. Make sure everyone&rsquo;s phone is charging overnight. Confirm the morning shuttle with the front desk if not done on arrival. Sleep.
+    Set two alarms. Lay passports, e-visa printouts, booking confirmations, and boarding passes together in one accessible place. Make sure everyone&rsquo;s phone is charging overnight. Confirm the morning shuttle with the front desk if not done on arrival. Sleep.</div>
   </div>
 </div>
+
+<div class="stop">
+  <div class="stop-header">
+    <span class="stop-time">Melbourne Layover To-Do</span>
+    <div>
+      <div class="stop-name">&#128241; Set Up Your eSIMs</div>
+      <span class="stop-name-sub">Cat, Gigi, Grads &amp; Piper get eSIMs &mdash; Ian is on Optus roaming</span>
+    </div>
+  </div>
+  <p>Four eSIMs to set up &mdash; Cat, Gigi, Grads, and Piper (who is bringing her own phone on this trip for games and movies on the long flights and car journeys). Ian is using his Optus international roaming plan at $5/day, which keeps him on a familiar number with calling capability. Everyone is independently connected, so if the family splits up at any point &mdash; different cable cars at Ba Na Hills, separate taxis, a wander off in the Singapore markets &mdash; no one is unreachable.</p>
+  <p><strong>Both eSIMs can be purchased and installed during the Melbourne layover on the international terminal WiFi.</strong></p>
+
+  <div class="section-label">&#127483;&#65039; Vietnam &mdash; Viettel eSIM &mdash; Cat, Gigi, Grads &amp; Piper</div>
+  <p>Buy at <strong>vietnamesim.com/esim/viettel-esim</strong> &mdash; one per person, four total. No passport required, QR code to email within minutes. The plan gives <strong>5GB/day for 30 days</strong>, daily data reset at 23:59 Vietnam time, hotspot supported. Around <strong>USD $20 per person</strong> (~AUD $31) for the 30-day plan. Install during the layover; activates on landing in Vietnam. <strong>Buy at the airport on 20 June &mdash; not in advance</strong>, as validity begins from purchase date.</p>
+
+  <div class="section-label">&#127480;&#127468; Singapore &amp; Malaysia &mdash; Singtel hi! Tourist eSIM &mdash; Cat, Gigi, Grads &amp; Piper</div>
+  <p>Buy at <strong>singtel.com/personal/products-services/mobile/prepaid-plans/hi-tourist</strong> &mdash; choose the <strong>S$15 hi! Tourist Plan</strong>. Gives <strong>500GB 5G+ data for 30 days</strong> covering Singapore, Malaysia, Indonesia, Thailand &amp; Hong Kong, plus 18GB APAC roaming and unlimited local calls &amp; SMS. The Malaysia roaming means this single eSIM covers Singapore through to Kuala Lumpur without switching. <strong>S$15 per person (~AUD $17)</strong> &mdash; four plans total. Note: calls and SMS require in-person activation at a Singtel hi! retailer in Singapore on arrival; data works immediately from the QR install. Install in Melbourne, switch to this eSIM when you land in Singapore on 6 July.</p>
+
+  <div class="section-label">&#128222; Ian &mdash; Optus International Roaming</div>
+  <p>Ian is staying on his Optus plan at $5/day &mdash; activated automatically on first use in Vietnam. Covers calls, SMS, and data on his existing Australian number. No setup required in Melbourne. Worth confirming the day rate and data inclusions with Optus before departure if not already done.</p>
+
+  <div class="tip-box">
+    <strong>How to Install an eSIM on iPhone</strong>
+    Settings &rarr; Mobile Data &rarr; Add eSIM &rarr; Use QR Code &rarr; scan the QR from your email. Both eSIMs (Viettel and Singtel) can sit on the phone at the same time &mdash; set Viettel as the active data line for Vietnam, then switch to Singtel when you land in Singapore on 6 July. Walk Gigi and Grads through the install together in Melbourne while you&rsquo;re waiting for the flight. About 2 minutes per phone. For Piper&rsquo;s phone, check it supports eSIM before the trip &mdash; most iPhones from XR onwards do.
+  </div>
+  <div class="warning-box">
+    <strong>&#9888; Buy at Melbourne Airport on 20 June &mdash; Not Before</strong>
+    The Viettel eSIM validity begins from purchase date. Buy both eSIMs during the Melbourne layover &mdash; not weeks in advance or the Vietnam data will expire before you arrive.
+  </div>
+  </div>
 
 
 <!-- TOMORROW — FLIGHT DAY -->

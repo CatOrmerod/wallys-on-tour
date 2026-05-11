@@ -22,7 +22,7 @@ const content = `
 <div class="practical-bar">
   <h3>Essential Practical Info</h3>
   <div class="practical-grid">
-    <div class="practical-item"><strong>Hotels</strong>11 July: The Ritz-Carlton Kuala Lumpur, Jalan Imbi (Bukit Bintang area). 12 July: Sama Sama KLIA &mdash; directly connected to KLIA Terminal 1 by walkway. 13 July: Sydney flight at 9:10am.</div>
+    <div class="practical-item"><strong>Hotels</strong><strong>11&ndash;12 Jul:</strong> Ritz-Carlton KL &mdash; 3-Bedroom Suite, breakfast at <strong>The Cobalt Room, 6:00&ndash;10:30 AM daily</strong>. <strong>12 Jul:</strong> Sama Sama KLIA &mdash; 2&times; King + rollaway for Piper. <strong>No breakfast included</strong> at Sama Sama &mdash; grab something at the terminal before the 9:10am flight.</div>
     <div class="practical-item"><strong>Airport to Hotel (11 July)</strong>From KLIA: KLIA Ekspres train to KL Sentral (28 min, ~MYR 55/person) then Grab to Ritz-Carlton (~10 min). Or a private Grab/taxi direct from KLIA (~45&ndash;60 min, ~MYR 80&ndash;120) &mdash; more comfortable with luggage. For a tired family, the direct Grab is the right choice.</div>
     <div class="practical-item"><strong>Currency</strong>Malaysian Ringgit (MYR). Very affordable compared to Singapore &mdash; a good cocktail runs ~MYR 35&ndash;55 (~AUD $10&ndash;15). Cards accepted everywhere. Have some cash for small purchases.</div>
     <div class="practical-item"><strong>Getting Around KL</strong>Grab (ride-share) is cheap, reliable, and air-conditioned. The Ritz to Petronas Towers is about 5&ndash;10 minutes by Grab. KL's traffic can be slow &mdash; give a little extra time when heading somewhere with a timed ticket.</div>
@@ -110,7 +110,8 @@ const content = `
 
   <div class="tip-box">
     <strong>KLCC Park &mdash; Before or After</strong>
-    The park at the base of the towers is one of KL&rsquo;s most beautiful public spaces &mdash; green lawns, a jogging track, and the Symphony Lake with its evening fountain show. The water and light show runs nightly from 8pm to 10pm and is free to watch. It is a very pleasant 20 minutes after dinner. Let Piper run on the grass for a while.
+    The park at the base of the towers is one of KL&rsquo;s most beautiful public spaces &mdash; green lawns, a jogging track, and the Symphony Lake with its evening fountain show
+<div class="guide-img-wrap"><img src="/images/kl-towers-night.jpg" alt="Petronas Towers at night with fountain show" class="guide-img" onerror="this.style.display='none'"></div>. The water and light show runs nightly from 8pm to 10pm and is free to watch. It is a very pleasant 20 minutes after dinner. Let Piper run on the grass for a while.
   </div>
 </div>
 
@@ -118,7 +119,7 @@ const content = `
   <div class="stop-header">
     <span class="stop-time">7:00 PM</span>
     <div>
-      <div class="stop-name">Marini\n<div class="guide-img-wrap"><img src="/images/kl-marinis-view.jpg" alt="Marini's on 57 Petronas view" class="guide-img" onerror="this.style.display='none'"></div>&rsquo;s on 57 &mdash; Sunset Cocktails Above the Towers</div>
+      <div class="stop-name">Marini\n<div class="guide-img-wrap"><img src="/images/kl-martinis-view.jpg" alt="Marini's on 57 Petronas view" class="guide-img" onerror="this.style.display='none'"></div>&rsquo;s on 57 &mdash; Sunset Cocktails Above the Towers</div>
       <span class="stop-name-sub">Level 57, Menara 3 Petronas, Persiaran KLCC &mdash; 2 min walk from the towers</span>
     </div>
   </div>
@@ -166,8 +167,11 @@ const content = `
   <p>This is the morning to do nothing in particular. The Ritz-Carlton KL will have an exceptional breakfast &mdash; use it. There is genuinely no need to squeeze any more sightseeing into this morning. By the 12th of July, the family will have done Vietnam top to bottom (Ho Chi Minh City, the Mekong Delta, Hội An, Huế, Da Nang), Singapore across five days, and now KL. A long Ritz breakfast, a morning in the suite, and a slow checkout is the right call.</p>
 
   <div class="tip-box">
-    <strong>A Note on Batu Caves</strong>
-    Batu Caves &mdash; the magnificent Hindu temple complex at the top of 272 vibrantly painted steps north of KL &mdash; is one of Malaysia&rsquo;s great sights and genuinely spectacular. It is also 272 steps, about 45 minutes from the hotel, in July heat. Given that Gigi and Grads are at the end of a five-week trip, and given that everyone will have had a late evening, this is honestly a morning to rest rather than to add another activity. If the family wakes early with unusual energy, it is absolutely worth considering. If not, there is no shame in a quiet breakfast and a packed bag.
+    <strong>If the Family Wakes With Unusual Energy&hellip;</strong>
+    Two options, depending on ambition level:<br><br>
+    <strong>Petrosains Discovery Centre (Gigi&rsquo;s pick for Piper)</strong> &mdash; right inside Suria KLCC at the base of the Petronas Towers, 5 minutes from the Ritz. Opens 9:30 AM. A 70,000 sq ft interactive science centre with hands-on zones covering space, dinosaurs, energy, and technology &mdash; you board an oil-drop shaped pod as your entry ride. Genuinely well reviewed for kids aged 8&ndash;12, easily 2 hours, fully air-conditioned. RM35&ndash;45 per person. Book at petrosains.com.my. Done by noon, checkout by 1pm, still plenty of time to Sama Sama. The case for it: Piper is literally at the door of the Petronas Towers anyway, it&rsquo;s on the way out, and everyone can sit down inside in the cool.<br><br>
+    <strong>Batu Caves</strong> &mdash; the magnificent Hindu temple complex at the top of 272 vibrantly painted steps north of KL &mdash; one of Malaysia&rsquo;s great sights. It is also 272 steps, 45 minutes from the hotel, in July heat, at the end of three weeks of travel. Worth knowing about; honest advice is to leave it for another trip unless everyone genuinely wakes up feeling fresh.<br><br>
+    If neither appeals: the Ritz breakfast is exceptional, the suite is large, and the family has earned a slow morning. No shame whatsoever in a long breakfast and a packed bag.
   </div>
 </div>
 

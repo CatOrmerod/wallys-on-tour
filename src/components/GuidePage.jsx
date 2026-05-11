@@ -11,6 +11,8 @@ const guideModules = {
   singapore:  () => import('../guides/singapore.js'),
   kl:         () => import('../guides/kl.js'),
   food:       () => import('../guides/food.js'),
+  phrases:    () => import('../guides/phrases.js'),
+  bana:       () => import('../guides/bana.js'),
 }
 
 export default function GuidePage({ guide, active, onBack }) {
