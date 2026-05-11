@@ -18,7 +18,7 @@ const content = `
 <div class="practical-bar">
   <h3>Essential Practical Info</h3>
   <div class="practical-grid">
-    <div class="practical-item"><strong>Your Hotel</strong>Victoria Resort Can Tho, Cai Khe Ward, Ninh Kieu\n<div class="guide-img-wrap"><img src="/images/cantho-ninh-kieu.jpg" alt="Ninh Kieu promenade Can Tho" class="guide-img" onerror="this.style.display='none'"></div> District — a colonial-style resort on the banks of the Hau River. Pool, spa, and Spices Restaurant on-site. A short resort boat ride from Ninh Kieu town centre.</div>
+    <div class="practical-item"><strong>Your Hotel</strong>Victoria Resort Can Tho &mdash; <strong>2 &times; King Room with Balcony</strong> + rollaway for Piper. <strong>Buffet breakfast included</strong> at <strong>Spices Restaurant</strong> (room service available from 6:00 AM; confirm buffet hours with hotel on arrival).</div> District — a colonial-style resort on the banks of the Hau River. Pool, spa, and Spices Restaurant on-site. A short resort boat ride from Ninh Kieu town centre.</div>
     <div class="practical-item"><strong>Getting to Town</strong>The resort runs its own boat transfer to Ninh Kieu — far more charming than a Grab and the right way to arrive at a riverside restaurant. Ask reception to arrange. Grab is also available for standard road transfers.</div>
     <div class="practical-item"><strong>Weather in June</strong>Hot and humid — 30–35°C by day. June is wet season; afternoon showers are possible. The river is genuinely cool and breezy before dawn on Day 2. Carry a light rain jacket or poncho at all times.</div>
     <div class="practical-item"><strong>Currency &amp; Cash</strong>Vietnamese Dong (VND). Have cash for any market stops Jason makes along the way. The resort and L'Escale accept cards; smaller purchases and tips need VND.</div>
@@ -164,7 +164,8 @@ const content = `
   <div class="section-label">Jason's Full Morning Itinerary</div>
   <ul class="must-sees">
     <li>5:15 AM boat — out onto the Hau River before sunrise</li>
-    <li>Breakfast on the boat — bánh mì, Mekong Starbucks coffee, pork BBQ noodle</li>
+    <li>Breakfast on the boat — bánh mì, Mekong Starbucks
+<div class="guide-img-wrap"><img src="/images/cantho-river-market.webp" alt="Coffee boat Cai Rang floating market" class="guide-img" onerror="this.style.display='none'"></div> coffee, pork BBQ noodle</li>
     <li>Cai Rang — cruise through the trading boats at peak market hour</li>
     <li>Rice paper &amp; noodle making factory — make your own rice noodles</li>
     <li>Rooftop photos — the best vantage point over the full market</li>

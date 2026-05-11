@@ -7,7 +7,8 @@ const content = `
     <div class="cover-rule"></div>
     <div class="cover-meta">
       <div><span class="cover-meta-label">The Family</span><span class="cover-meta-value">Cat, Ian, Piper, Gigi &amp; Grads</span></div>
-      <div><span class="cover-meta-label">Hotel</span><span class="cover-meta-value">Hue Ancient Garden Houses &mdash; Bach Ma House\n<div class="guide-img-wrap"><img src="/images/hue-bach-ma-house.jpg" alt="Bach Ma House Hue Ancient Garden Houses" class="guide-img" onerror="this.style.display='none'"></div></span></div>
+      <div><span class="cover-meta-label">Hotel</span><span class="cover-meta-value">Hue Ancient Garden Houses &mdash; Bach Ma House</span>
+<div class="guide-img-wrap"><img src="/images/hue-bach-ma-house.jpeg" alt="Hue Ancient Garden Houses Bach Ma House at night" class="guide-img" onerror="this.style.display='none'"></div></div>
       <div><span class="cover-meta-label">Nights</span><span class="cover-meta-value">3 nights, departing 4 July for Da Nang</span></div>
     </div>
   </div>
@@ -16,10 +17,12 @@ const content = `
 <div class="practical-bar">
   <h3>Essential Practical Info</h3>
   <div class="practical-grid">
-    <div class="practical-item"><strong>Your Hotel</strong>Hue Ancient Garden Houses &amp; French Villas, Kim Long village, on the banks of the Perfume River\n<div class="guide-img-wrap"><img src="/images/hue-perfume-river.jpg" alt="Perfume River Hue" class="guide-img" onerror="this.style.display='none'"></div>. You are staying in <strong>Bach Ma House</strong> &mdash; the largest house in the property, themed as a tribute to Hue royal costumes and accessories. Two king-size bedrooms, each with private terrace and Jacuzzi bathroom, surrounded by a landscaped garden.</div>
+    <div class="practical-item"><strong>Your Hotel</strong>Hue Ancient Garden Houses, Kim Long village &mdash; <strong>Bach Ma House: 2 King Rooms with Garden View</strong> + rollaway for Piper, private terraces, Jacuzzi bathrooms. <strong>Cooked breakfast included</strong> (à la carte &amp; unlimited, not buffet) at <strong>Kim Long Fine Dining, 6:30&ndash;10:00 AM daily</strong>.</div> in <strong>Bach Ma House</strong> &mdash; the largest house in the property, themed as a tribute to Hue royal costumes and accessories. Two king-size bedrooms, each with private terrace and Jacuzzi bathroom, surrounded by a landscaped garden.</div>
     <div class="practical-item"><strong>Arrival &mdash; 1 July</strong>You arrive by private car after the scenic drive from Hội An (Marble Mountains, Hải Vân Pass, Lăng Cô, Lập An Lagoon, Thanh Toàn Bridge). Expect to arrive around 5&ndash;6pm. Check in, settle, rest. The sightseeing begins on Day 2.</div>
-    <div class="practical-item"><strong>Departure &mdash; 4 July</strong>Drive direct to Da Nang &mdash; about 2.5&ndash;3 hours, no planned stops. The Da Nang Marriott guide picks up from there.</div>
-    <div class="practical-item"><strong>Combo Ticket</strong>Buy at any Hue Heritage site. Covers the Imperial City\n<div class="guide-img-wrap"><img src="/images/hue-imperial-city.jpg" alt="Imperial City Hue" class="guide-img" onerror="this.style.display='none'"></div> + all three royal tombs. Saves significantly over individual tickets. Ask for the &ldquo;Hue Heritage&rdquo; combo at the Ngọ Môn Gate\n<div class="guide-img-wrap"><img src="/images/hue-ngo-mon-gate.jpg" alt="Ngo Mon Gate Hue Citadel" class="guide-img" onerror="this.style.display='none'"></div> ticket office.</div>
+    <div class="practical-item"><strong>Departure &mdash; 3 July</strong>After the Minh Mạng tomb, drive
+<div class="guide-img-wrap"><img src="/images/hue-minh-mang-tomb.jpg" alt="Minh Mang Mausoleum Hue" class="guide-img" onerror="this.style.display='none'"></div> to Ba Na Hills (~2.5 hours from Huế). Check into Mercure Danang French Village Ba Na Hills for 1 night. The Golden Hands Bridge is the next morning.</div>
+    <div class="practical-item"><strong>Combo Ticket</strong>Buy at any Hue Heritage site. Covers the Imperial City + all three royal tombs. Saves significantly over individual tickets. Ask for the &ldquo;Hue Heritage&rdquo; combo at the Ngọ Môn Gate
+<div class="guide-img-wrap"><img src="/images/hue-ngo-mon-gate.jpg" alt="Ngo Mon Gate Hue Citadel" class="guide-img" onerror="this.style.display='none'"></div> ticket office.</div>
     <div class="practical-item"><strong>Transport for the Tombs</strong>Hire a driver or minivan for Day 3 &mdash; the royal tombs are spread south along the Perfume River and are impractical to visit by taxi app. Arrange through your hotel the evening before. Agree on a half-day rate upfront.</div>
     <div class="practical-item"><strong>Heat Warning</strong>Huế is one of the hottest cities in Vietnam in July &mdash; consistently 34&ndash;38&deg;C, with high humidity. Start early both sightseeing days, carry water, use shade. Most sites have covered walkways &mdash; use them. Don&rsquo;t rush.</div>
   </div>
@@ -63,7 +66,8 @@ const content = `
   <div class="stop-header">
     <span class="stop-time">7:30 AM</span>
     <div>
-      <div class="stop-name">Thiên Mụ Pagoda\n<div class="guide-img-wrap"><img src="/images/hue-thien-mu-pagoda.jpg" alt="Thien Mu Pagoda Hue" class="guide-img" onerror="this.style.display='none'"></div></div>
+      <div class="stop-name">Thiên Mụ Pagoda</div>
+<div class="guide-img-wrap"><img src="/images/hue-thien-mu-pagoda.jpg" alt="Thien Mu Pagoda Hue" class="guide-img" onerror="this.style.display='none'"></div>
       <span class="stop-name-viet">Ch&ugrave;a Thi&ecirc;n Mụ &mdash; &ldquo;Pagoda of the Celestial Lady&rdquo;</span>
     </div>
   </div>
@@ -103,7 +107,8 @@ const content = `
   <div class="stop-header">
     <span class="stop-time">9:30 AM</span>
     <div>
-      <div class="stop-name">The Imperial City &amp; Citadel</div>
+      <div class="stop-name">The Imperial City &amp; Citadel
+<div class="guide-img-wrap"><img src="/images/hue-imperial-city.jpg" alt="Hue Imperial City Ngo Mon Gate at sunset" class="guide-img" onerror="this.style.display='none'"></div></div>
       <span class="stop-name-viet">Đại Nội &mdash; The Forbidden Purple City within the Citadel</span>
     </div>
   </div>
@@ -116,7 +121,7 @@ const content = `
   <p>These are not two separate places. The Citadel is the great outer fortified city, and the Imperial City (Đại Nội) sits within it. Think of it as nested walls: the outer Citadel protected the entire royal capital; inside was the Imperial Enclosure where court life took place; and at the heart was the Forbidden Purple City, the emperor&rsquo;s private residence (largely destroyed in the 1968 Tết Offensive and a 1947 fire). What remains is still vast, extraordinary, and actively being restored.</p>
 
   <div class="section-label">The History</div>
-  <p>Construction began in 1804 under Emperor Gia Long, the founder of the Nguyễn Dynasty &mdash; the last ruling family of Vietnam. He chose Huế as his capital and modelled the city on Beijing&rsquo;s Forbidden City, though with distinctly Vietnamese character. The complex was expanded significantly by Emperor Minh Mạng\n<div class="guide-img-wrap"><img src="/images/hue-minh-mang-tomb.jpg" alt="Minh Mang Mausoleum Hue" class="guide-img" onerror="this.style.display='none'"></div> (1820&ndash;1841) and became one of the great royal capitals of Southeast Asia. At its peak, over 10,000 people lived and worked inside the walls &mdash; mandarins, concubines, soldiers, artisans, eunuchs, and servants.</p>
+  <p>Construction began in 1804 under Emperor Gia Long, the founder of the Nguyễn Dynasty &mdash; the last ruling family of Vietnam. He chose Huế as his capital and modelled the city on Beijing&rsquo;s Forbidden City, though with distinctly Vietnamese character. The complex was expanded significantly by Emperor Minh Mạng (1820&ndash;1841) and became one of the great royal capitals of Southeast Asia. At its peak, over 10,000 people lived and worked inside the walls &mdash; mandarins, concubines, soldiers, artisans, eunuchs, and servants.</p>
   <p>The Nguyễn Dynasty ruled from here until 1945, when the last emperor, Bảo Đại, abdicated at Ngọ Môn Gate in favour of Hồ Chí Minh&rsquo;s revolutionary government &mdash; handing over the imperial seal and sword and marking the end of over a thousand years of Vietnamese monarchy. The complex was heavily damaged during the French war and again in the 1968 Tết Offensive, but significant reconstruction has taken place over the past 30 years. It was designated a UNESCO World Heritage Site in 1993.</p>
 
   <div class="section-label">Where to Spend Your Time</div>
@@ -145,8 +150,29 @@ const content = `
   </div>
 </div>
 
+<div class="stop">
+  <div class="stop-header">
+    <span class="stop-time">1:00 PM &mdash; After Lunch</span>
+    <div>
+      <div class="stop-name">Afternoon Tombs &mdash; Tự Đức &amp; Khải Định</div>
+<div class="guide-img-wrap"><img src="/images/hue-tu-duc-tomb.jpg" alt="Tu Duc Mausoleum Hue" class="guide-img" onerror="this.style.display='none'"></div>
+      <span class="stop-name-viet">Two of the three royal mausoleums &mdash; save Minh Mạng for tomorrow morning</span>
+    </div>
+  </div>
+  <div class="stop-badges">
+    <span class="badge badge-ticket">Paid Entry &mdash; Huế Heritage combo ticket</span>
+    <span class="badge badge-duration">~3 hours total for both</span>
+  </div>
+  <p>After a lunch break and rest (essential in the July heat), head south along the Perfume River for the afternoon tombs run. Do Tự Đức first &mdash; the most tranquil and park-like, a shaded lake, lotus ponds, and the poetry pavilion where the emperor wrote over 4,000 poems. Then Khải Định: the most visually spectacular, a dramatic staircase climbing the mountainside to a throne room covered floor-to-ceiling in extraordinary porcelain mosaic. Both are full details
+<div class="guide-img-wrap"><img src="/images/hue-khai-dinh-tomb.jpg" alt="Khai Dinh Mausoleum mosaic interior" class="guide-img" onerror="this.style.display='none'"></div> in the Day Three section below. Save Minh Mạng for tomorrow morning before the drive &mdash; it rewards a slow, unhurried pace that the final morning allows perfectly.</p>
+  <div class="tip-box">
+    <strong>Timing</strong>
+    Aim to be at Tự Đức by 1:30pm and Khải Định by 3pm. Both take about 75 minutes each. Back at the hotel by 5pm &mdash; tired, full of history, and ready for a royal costume dinner at Kim Long Dining.
+  </div>
+</div>
 
-<!-- DAY 3 — THE TOMBS -->
+
+<!-- DAY 3 — MINH MANG + DRIVE -->
 <div class="day-header day3">
   <div class="day-number">Day 14 &mdash; Thursday 3 July</div>
   <div class="day-title">The Royal Tombs Trail</div>
@@ -156,79 +182,6 @@ const content = `
 <div class="stop">
   <div class="stop-header">
     <span class="stop-time">7:30 AM</span>
-    <div>
-      <div class="stop-name">Mausoleum of Emperor Tự Đức\n<div class="guide-img-wrap"><img src="/images/hue-tu-duc-tomb.jpg" alt="Tu Duc Mausoleum Hue" class="guide-img" onerror="this.style.display='none'"></div></div>
-      <span class="stop-name-viet">Lăng Tự Đức &mdash; &ldquo;Humility Tomb&rdquo;</span>
-    </div>
-  </div>
-  <div class="stop-badges">
-    <span class="badge badge-ticket">Paid Entry &mdash; included in combo ticket</span>
-    <span class="badge badge-duration">~75 minutes</span>
-    <span class="badge badge-family">Easy Walking &mdash; well shaded</span>
-  </div>
-
-  <div class="section-label">The History</div>
-  <p>Tự Đức was the fourth Nguyễn emperor and the longest-reigning, ruling from 1847 to 1883. He was a poet, philosopher, and scholar who reportedly wrote over 4,000 poems during his lifetime. Unlike most rulers, Tự Đức designed his own mausoleum himself &mdash; and rather than building a tomb, he built a private retreat he used extensively while still alive. He would come here to write poetry, fish in the lake, watch theatre performances, and escape the pressures of court.</p>
-  <p>The complex was built between 1864 and 1867 using forced labour, which sparked a brief rebellion. Tự Đức was childless despite over 100 wives, and the mystery surrounding his burial remains: his actual grave site was kept secret by executing the 200 labourers who dug it, and its location has never been confirmed. His body may not even be here.</p>
-
-  <div class="section-label">What to Expect</div>
-  <p>This is the most tranquil and park-like of the three tombs &mdash; dense pine trees, a large shaded lake, lotus ponds, a pavilion over the water, and gentle paths make it pleasant for all ages. The architecture is modest and human-scaled compared to the others; it feels less like a monument and more like a peaceful country estate. Arrive at 7:30am and the family will likely have it almost to themselves.</p>
-
-  <div class="section-label">Where to Spend Your Time</div>
-  <ul class="must-sees">
-    <li>Xung Khiêm Pavilion &mdash; on the lake, where the emperor wrote poetry. Most photogenic spot.</li>
-    <li>The lake and walking paths &mdash; shaded, slow, easy for all ages including Gigi and Grads</li>
-    <li>The stele pavilion &mdash; Tự Đức wrote his own 4,000-word inscription listing his achievements and regrets</li>
-    <li>The Hoà Khiêm Temple &mdash; the main shrine building, still holding offerings</li>
-    <li>The lotus and koi ponds near the rear of the complex</li>
-  </ul>
-
-  <div class="tip-box">
-    <strong>Tip</strong>
-    This is the least crowded of the three tombs, especially at this hour. A beautiful, shaded start to the day before the heat builds. Piper will enjoy the space to wander the garden paths &mdash; there is room and greenery and nothing fragile underfoot.
-  </div>
-</div>
-
-<div class="stop">
-  <div class="stop-header">
-    <span class="stop-time">9:30 AM</span>
-    <div>
-      <div class="stop-name">Mausoleum of Emperor Khải Định\n<div class="guide-img-wrap"><img src="/images/hue-khai-dinh-tomb.jpg" alt="Khai Dinh Mausoleum Hue" class="guide-img" onerror="this.style.display='none'"></div></div>
-      <span class="stop-name-viet">Lăng Khải Định &mdash; &ldquo;Ứng Lăng&rdquo;</span>
-    </div>
-  </div>
-  <div class="stop-badges">
-    <span class="badge badge-ticket">Paid Entry &mdash; included in combo ticket</span>
-    <span class="badge badge-duration">~75 minutes</span>
-    <span class="badge badge-family">Note: steep staircase &mdash; take your time, use rest points</span>
-  </div>
-
-  <div class="section-label">The History</div>
-  <p>Khải Định was the 12th Nguyễn emperor, reigning from 1916 to 1925. He is a controversial figure &mdash; he collaborated closely with the French colonial authorities and is widely seen as a puppet emperor &mdash; but his tomb is unquestionably the most visually spectacular in all of Huế. Construction took 11 years (1920&ndash;1931) and cost so much that Khải Định raised taxes by 30% to fund it, which further damaged his reputation among his people.</p>
-  <p>The result, however, is extraordinary. Unlike every other Nguyễn tomb, which follows traditional Vietnamese design, this mausoleum is a bizarre and brilliant fusion of Vietnamese, Gothic, Romanesque, and Hindu architectural elements &mdash; all built in grey reinforced concrete up the side of Châu Chữ Mountain. Artisans were brought in to cover every interior surface with intricate mosaics from broken porcelain, coloured glass, and ceramic fragments imported from France, China, and Japan. The effect inside the main throne room is unlike anything else in Southeast Asia.</p>
-
-  <div class="section-label">What to Expect</div>
-  <p>You arrive at the base facing a long staircase flanked by dragon sculptures. Multiple levels and landings lead up the hillside &mdash; take your time, particularly with Gigi and Grads. The views back over the surrounding hills from the upper levels are beautiful. The interior of the final chamber &mdash; where the emperor&rsquo;s bronze statue sits above his actual burial chamber &mdash; is covered floor to ceiling in mosaic and is genuinely jaw-dropping.</p>
-
-  <div class="section-label">Where to Spend Your Time</div>
-  <ul class="must-sees">
-    <li>The staircase approach &mdash; dragon balustrades on every flight, great for photos</li>
-    <li>Honour Court &mdash; stone mandarins, elephants, and horses standing guard</li>
-    <li>The Stele Pavilion (mid-level) &mdash; octagonal structure housing the emperor&rsquo;s monument</li>
-    <li>Khải Thành Palace (top) &mdash; the main chamber, entirely covered in mosaic art</li>
-    <li>The bronze statue of Khải Định above the burial chamber &mdash; uniquely lifelike</li>
-    <li>Views from the upper terrace &mdash; look back over the hills for the best panorama</li>
-  </ul>
-
-  <div class="tip-box">
-    <strong>Staircase &mdash; Note for Gigi &amp; Grads</strong>
-    The main staircase is steep. There are rest points at each level &mdash; use them. The ascent in two or three stages is entirely manageable. The effort is absolutely worth it; the mosaic interior at the top is unlike anything else in Vietnam. Ask the driver to park at the base rather than the road above.
-  </div>
-</div>
-
-<div class="stop">
-  <div class="stop-header">
-    <span class="stop-time">11:30 AM</span>
     <div>
       <div class="stop-name">Mausoleum of Emperor Minh Mạng</div>
       <span class="stop-name-viet">Lăng Minh Mạng &mdash; &ldquo;Hiếu Lăng&rdquo;</span>
@@ -258,7 +211,25 @@ const content = `
 
   <div class="tip-box">
     <strong>Tip</strong>
-    The site is flat and mostly easy walking, but large. Follow the central axis &mdash; this gives the full intended experience of building anticipation as the burial mound is approached through the sequence of gates and lakes. Allow the full 90 minutes &mdash; it rewards a slow pace. The tombs trail will be done by around 1:30pm, leaving a long and well-deserved afternoon back at the hotel.
+    The site is flat and mostly easy walking, but large. Follow the central axis &mdash; this gives the full intended experience of building anticipation as the burial mound is approached through the sequence of gates and lakes. Allow the full 90 minutes. Done by 9:30am &mdash; leaving plenty of time for checkout and the drive west.
+  </div>
+</div>
+
+<div class="stop">
+  <div class="stop-header">
+    <span class="stop-time">~10:00 AM</span>
+    <div>
+      <div class="stop-name">Check Out &amp; Drive to Ba Na Hills</div>
+      <span class="stop-name-viet">Hue Ancient Garden Houses &rarr; Mercure Danang French Village Ba Na Hills &mdash; ~2.5 hours</span>
+    </div>
+  </div>
+  <div class="stop-badges">
+    <span class="badge badge-duration">~2.5 hour drive</span>
+  </div>
+  <p>Check out of Bach Ma House after breakfast and the Minh Mạng visit. The drive from Huế to Ba Na Hills heads south toward Da Nang and then west into the Trường Sơn mountains &mdash; about 2.5 hours, arriving at the Ba Na Hills resort in the early afternoon. Check into the Mercure, the only hotel on the mountain. The Ba Na Hills guide picks up from here.</p>
+  <div class="tip-box">
+    <strong>Why Stay on the Mountain</strong>
+    Staying at the Mercure is the single best decision for seeing the Golden Hands Bridge. Hotel guests access the first cable car at 7:30 AM &mdash; 30 minutes before day-trippers arrive, and a full hour before the crowds appear. On the bridge before 8am, you will have it almost entirely to yourselves. This was Gigi's instinct and it is exactly right.
   </div>
 </div>
 
@@ -376,6 +347,6 @@ const content = `
 
 </div><!-- end .content -->
 
-<footer>Cat, Ian, Piper, Gigi &amp; Grads &nbsp;&middot;&nbsp; Hue Ancient Garden Houses, Bach Ma House &nbsp;&middot;&nbsp; 1&ndash;4 July &nbsp;&middot;&nbsp; Combo ticket covers Imperial City + all three royal tombs</footer>
+<footer>Cat, Ian, Piper, Gigi &amp; Grads &nbsp;&middot;&nbsp; Hue Ancient Garden Houses, Bach Ma House &nbsp;&middot;&nbsp; 1&ndash;3 July &nbsp;&middot;&nbsp; Combo ticket covers Imperial City + all three royal tombs</footer>
 `;
 export default content;

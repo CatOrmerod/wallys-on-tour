@@ -3,7 +3,7 @@ const content = `
   <div class="cover-inner">
     <div class="cover-eyebrow">Family Travel Guide &mdash; Rest &amp; Restore</div>
     <div class="cover-title">Đà <em>Nẵng</em></div>
-    <div class="cover-sub">Danang Marriott Resort\n<div class="guide-img-wrap"><img src="/images/danang-marriott.jpg" alt="Danang Marriott Resort and Spa" class="guide-img" onerror="this.style.display='none'"></div> &amp; Spa &mdash; 4 to 6 July</div>
+    <div class="cover-sub">Danang Marriott Resort\n<div class="guide-img-wrap"><img src="/images/danang-marriott-pool.jpg" alt="Danang Marriott Resort and Spa" class="guide-img" onerror="this.style.display='none'"></div> &amp; Spa &mdash; 4 to 6 July</div>
     <div class="cover-rule"></div>
     <div class="cover-meta">
       <div><span class="cover-meta-label">The Family</span><span class="cover-meta-value">Cat, Ian, Piper, Gigi &amp; Grads</span></div>
@@ -19,7 +19,7 @@ const content = `
   <div class="practical-grid">
     <div class="practical-item"><strong>Arrival &mdash; 4 July</strong>Drive direct from Hu&eacute; with no planned stops (bathroom breaks as needed). Hu&eacute; to Da Nang is approximately 2.5&ndash;3 hours. The Marriott is on Non Nu&ocirc;c Beach
 <div class="guide-img-wrap"><img src="/images/danang-non-nuoc-beach.jpg" alt="Non Nuoc Beach Da Nang" class="guide-img" onerror="this.style.display='none'"></div>, about 15 minutes south of Da Nang city centre.</div>
-    <div class="practical-item"><strong>Your Villa</strong>3-bedroom pool villa with private pool. All meals are included for the stay. The resort has 5 additional communal pools, direct beach access, and buggy transport between the villa and the beach.</div>
+    <div class="practical-item"><strong>Your Villa</strong>Danang Marriott Resort &amp; Spa &mdash; <strong>3-Bedroom Pool Villa with Private Pool</strong>, all three bedrooms en-suite. <strong>All meals included</strong> &mdash; breakfast, lunch, and dinner. Breakfast at <strong>Goji Kitchen &amp; Bar, 6:00&ndash;10:30 AM daily</strong>.</div> with private pool. All meals are included for the stay. The resort has 5 additional communal pools, direct beach access, and buggy transport between the villa and the beach.</div>
     <div class="practical-item"><strong>All Meals Included</strong>Breakfast, lunch, and dinner are all included in your booking across all resort restaurants. No need to budget for food during this stay &mdash; simply choose the venue and enjoy. All details in the dining guide at the back of this booklet.</div>
     <div class="practical-item"><strong>Departure &mdash; 6 July</strong>VJ973 departs Da Nang at 1:10pm to Singapore. Da Nang International Airport is approximately 25 minutes from the resort. Plan to check out and be in the car by 10:30am &mdash; allow time for check-out admin and the drive.</div>
     <div class="practical-item"><strong>Currency at the Resort</strong>Vietnamese Dong (VND) or major cards for any incidentals not covered by the all-inclusive package (spa treatments, activities, minibar extras). The resort uses a charge-to-room system so nothing requires cash at the point of service.</div>
@@ -83,7 +83,7 @@ const content = `
   <p>The beach is a short buggy ride from the villa &mdash; the resort&rsquo;s buggy service runs continuously and the beach has sun loungers, umbrellas, and beach attendants. Non Nu&ocirc;c Beach here is wide, clean, and relatively uncrowded (the resort section is private). The South China Sea water is warm in July &mdash; around 28&ndash;30&deg;C &mdash; with gentle surf. For Piper, this is the morning to run into the waves. For Gigi and Grads, a sun lounger under an umbrella with a cold coconut water is the perfect morning.</p>
   <div class="highlight-box">
     <strong>&#127946; The Pools</strong>
-    The resort has five communal pools in addition to the private pool in your villa. The infinity pool\n<div class="guide-img-wrap"><img src="/images/danang-infinity-pool.jpg" alt="Marriott Da Nang infinity pool" class="guide-img" onerror="this.style.display='none'"></div> is the standout &mdash; stretching toward the horizon with sea views. There is also a dedicated infant pool (calm and shallow, ideal for younger children), a family pool area, and a quieter adults&rsquo; area. The pools are where Piper will want to spend most of the day. If the beach and the villa pool are not enough, the infinity pool in the late afternoon with a poolside cocktail is the right call.
+    The resort has five communal pools in addition to the private pool in your villa. The infinity pool\n<div class="guide-img-wrap"><img src="/images/danang-marriott-pool.jpg" alt="Marriott Da Nang infinity pool" class="guide-img" onerror="this.style.display='none'"></div> is the standout &mdash; stretching toward the horizon with sea views. There is also a dedicated infant pool (calm and shallow, ideal for younger children), a family pool area, and a quieter adults&rsquo; area. The pools are where Piper will want to spend most of the day. If the beach and the villa pool are not enough, the infinity pool in the late afternoon with a poolside cocktail is the right call.
   </div>
 </div>
 
@@ -128,7 +128,7 @@ const content = `
     <span class="stop-time">Evening</span>
     <div>
       <div class="stop-name">Happy Hour &amp; Dinner</div>
-      <span class="stop-name-sub">Beach House\n<div class="guide-img-wrap"><img src="/images/danang-beach-house.jpg" alt="Beach House bar Marriott Da Nang" class="guide-img" onerror="this.style.display='none'"></div> Bar &mdash; then Madame Son or the villa</span>
+      <span class="stop-name-sub">Beach House\n<div class="guide-img-wrap"><img src="/images/danang-beach-house-bar.jpg" alt="Beach House bar Marriott Da Nang" class="guide-img" onerror="this.style.display='none'"></div> Bar &mdash; then Madame Son or the villa</span>
     </div>
   </div>
   <p>The Beach House is consistently the most popular spot at the resort for the early evening &mdash; an open-sided beach bar with happy hour from approximately 5pm, where the day&rsquo;s last light comes off the South China Sea and the cocktails are excellent. This is the second-to-last evening in Vietnam after two weeks in the country. Take it slowly.</p>

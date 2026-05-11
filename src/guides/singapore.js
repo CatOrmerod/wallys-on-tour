@@ -7,7 +7,7 @@ const content = `
     <div class="cover-rule"></div>
     <div class="cover-meta">
       <div><span class="cover-meta-label">The Family</span><span class="cover-meta-value">Cat, Ian, Piper, Gigi &amp; Grads</span></div>
-      <div><span class="cover-meta-label">Base Hotel</span><span class="cover-meta-value">Paradox Clarke Quay\n<div class="guide-img-wrap"><img src="/images/sg-clarke-quay.jpg" alt="Clarke Quay Singapore River" class="guide-img" onerror="this.style.display='none'"></div></span></div>
+      <div><span class="cover-meta-label">Base Hotel</span><span class="cover-meta-value">Paradox Clarke Quay\n<div class="guide-img-wrap"><img src="/images/sg-clarke-quay.webp" alt="Clarke Quay Singapore River" class="guide-img" onerror="this.style.display='none'"></div></span></div>
       <div><span class="cover-meta-label">Special Night</span><span class="cover-meta-value">Gigi, Grads &amp; Piper &mdash; Marina Bay Sands\n<div class="guide-img-wrap"><img src="/images/sg-marina-bay-sands.jpg" alt="Marina Bay Sands Singapore" class="guide-img" onerror="this.style.display='none'"></div>, 9 July</span></div>
     </div>
   </div>
@@ -16,7 +16,7 @@ const content = `
 <div class="practical-bar">
   <h3>Essential Practical Info</h3>
   <div class="practical-grid">
-    <div class="practical-item"><strong>Hotels</strong>6&ndash;9 July: Paradox Clarke Quay (all five). 9 July night: Gigi, Grads &amp; Piper move to Marina Bay Sands; Cat &amp; Ian stay at Paradox. 10 July: everyone to Crowne Plaza Changi Airport.</div>
+    <div class="practical-item"><strong>Hotels</strong><strong>Days 17&ndash;20:</strong> Paradox Clarke Quay &mdash; 2&times; King + rollaway for Piper. Breakfast at <strong>Ellenborough Market Café, 6:30&ndash;10:30 AM</strong>. <strong>9 Jul:</strong> Marina Bay Sands &mdash; 2 Queen beds. Breakfast at <strong>RISE Restaurant, 6:30&ndash;11:00 AM</strong>. <strong>10 Jul:</strong> Crowne Plaza Changi &mdash; 2&times; King + rollaway for Piper. Breakfast at <strong>Allora Ristorante &amp; Bar, 6:00&ndash;10:30 AM</strong>.</div>
     <div class="practical-item"><strong>Getting Around</strong>MRT (subway) is fast, cheap, and air-conditioned everywhere. Buy an EZ-Link card at any station on arrival &mdash; tap in and out. Grab (ride-share) for everything else. Clarke Quay, Boat Quay, and Robertson Quay are connected by a riverside walk.</div>
     <div class="practical-item"><strong>Weather in July</strong>Hot and very humid &mdash; 32&ndash;34&deg;C. Plan air-conditioned breaks throughout each day. Brief tropical downpours are common in the afternoon but pass quickly. Always carry a small umbrella. Start outdoor sightseeing before 10am wherever possible.</div>
     <div class="practical-item"><strong>Currency</strong>Singapore Dollar (SGD). Noticeably more expensive than Vietnam &mdash; roughly 3&ndash;4&times; for dining and activities. Cards accepted almost everywhere. Have some cash for hawker centres and markets.</div>
@@ -174,7 +174,7 @@ const content = `
   <div class="stop-header">
     <span class="stop-time">9:30 AM</span>
     <div>
-      <div class="stop-name">Adventure Cove\n<div class="guide-img-wrap"><img src="/images/sg-sentosa.jpg" alt="Sentosa Island Singapore" class="guide-img" onerror="this.style.display='none'"></div> Waterpark</div>
+      <div class="stop-name">Adventure Cove\n<div class="guide-img-wrap"><img src="/images/sg-sentosa.webp" alt="Sentosa Island Singapore" class="guide-img" onerror="this.style.display='none'"></div> Waterpark</div>
       <span class="stop-name-sub">8 Sentosa Gateway, Sentosa Island &mdash; 20 min Grab from Clarke Quay</span>
     </div>
   </div>
@@ -222,7 +222,7 @@ const content = `
   <div class="stop-header">
     <span class="stop-time">7:00 PM</span>
     <div>
-      <div class="stop-name">Lau Pa Sat\n<div class="guide-img-wrap"><img src="/images/sg-lau-pa-sat.jpg" alt="Lau Pa Sat Singapore" class="guide-img" onerror="this.style.display='none'"></div> &mdash; Evening Satay</div>
+      <div class="stop-name">Lau Pa Sat\n<div class="guide-img-wrap"><img src="/images/sg-lau-pa-sat.webp" alt="Lau Pa Sat Singapore" class="guide-img" onerror="this.style.display='none'"></div> &mdash; Evening Satay</div>
       <span class="stop-name-sub">18 Raffles Quay &mdash; 15 min Grab from Clarke Quay</span>
     </div>
   </div>
@@ -246,7 +246,7 @@ const content = `
   <div class="stop-header">
     <span class="stop-time">9:00 AM</span>
     <div>
-      <div class="stop-name">Gardens by the Bay\n<div class="guide-img-wrap"><img src="/images/sg-gardens-bay.jpg" alt="Gardens by the Bay Singapore" class="guide-img" onerror="this.style.display='none'"></div></div>
+      <div class="stop-name">Gardens by the Bay\n<div class="guide-img-wrap"><img src="/images/sg-gardens-bay.webp" alt="Gardens by the Bay Singapore" class="guide-img" onerror="this.style.display='none'"></div></div>
       <span class="stop-name-sub">18 Marina Gardens Drive &mdash; 20 min Grab, or MRT to Bayfront</span>
     </div>
   </div>
@@ -283,7 +283,7 @@ const content = `
   </div>
 
   <div class="section-label">About Marina Bay Sands</div>
-  <p>Marina Bay Sands &mdash; designed by Moshe Safdie and opened in 2010 &mdash; is the most recognisable silhouette in Singapore: three 55-storey towers connected at the top by the SkyPark, a 340-metre cantilevered platform containing the famous infinity pool\n<div class="guide-img-wrap"><img src="/images/sg-infinity-pool.jpg" alt="MBS infinity pool Singapore skyline" class="guide-img" onerror="this.style.display='none'"></div>. The pool is 150 metres long and appears to hang directly over the skyline. It is open exclusively to hotel guests. Gigi, Grads, and Piper are hotel guests tonight. Cat and Ian are not &mdash; but they will join from above at CÉ LA VI\n<div class="guide-img-wrap"><img src="/images/sg-ce-la-vi.jpg" alt="CE LA VI MBS Level 57 Singapore" class="guide-img" onerror="this.style.display='none'"></div> in the evening.</p>
+  <p>Marina Bay Sands &mdash; designed by Moshe Safdie and opened in 2010 &mdash; is the most recognisable silhouette in Singapore: three 55-storey towers connected at the top by the SkyPark, a 340-metre cantilevered platform containing the famous infinity pool\n<div class="guide-img-wrap"><img src="/images/sg-infinity-pool.jpg" alt="MBS infinity pool Singapore skyline" class="guide-img" onerror="this.style.display='none'"></div>. The pool is 150 metres long and appears to hang directly over the skyline. It is open exclusively to hotel guests. Gigi, Grads, and Piper are hotel guests tonight. Cat and Ian are not &mdash; but they will join from above at CÉ LA VI\n<div class="guide-img-wrap"><img src="/images/sg-ce-la-vi.webp" alt="CE LA VI MBS Level 57 Singapore" class="guide-img" onerror="this.style.display='none'"></div> in the evening.</p>
 
   <div class="highlight-box">
     <strong>&#127946; Piper at the MBS Infinity Pool</strong>
